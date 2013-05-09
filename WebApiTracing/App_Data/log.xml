@@ -1,0 +1,245 @@
+﻿<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper />
+  <user />
+  <log>http://localhost:59156/api/values</log>
+  <category>System.Web.Http.Request</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>SelectController</oper>
+  <user>DefaultHttpControllerSelector</user>
+  <log>Route='controller:values'</log>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>GetPerRequestFormatterInstance</oper>
+  <user>JsonMediaTypeFormatter</user>
+  <log>Obtaining formatter of type 'JsonMediaTypeFormatter' for type='IEdmModel', mediaType=''</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>GetPerRequestFormatterInstance</oper>
+  <user>JsonMediaTypeFormatter</user>
+  <log>Will use same 'JsonMediaTypeFormatter' formatter</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>GetPerRequestFormatterInstance</oper>
+  <user>XmlMediaTypeFormatter</user>
+  <log>Obtaining formatter of type 'XmlMediaTypeFormatter' for type='IEdmModel', mediaType=''</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>GetPerRequestFormatterInstance</oper>
+  <user>XmlMediaTypeFormatter</user>
+  <log>Will use same 'XmlMediaTypeFormatter' formatter</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>GetPerRequestFormatterInstance</oper>
+  <user>FormUrlEncodedMediaTypeFormatter</user>
+  <log>Obtaining formatter of type 'FormUrlEncodedMediaTypeFormatter' for type='IEdmModel', mediaType=''</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>GetPerRequestFormatterInstance</oper>
+  <user>FormUrlEncodedMediaTypeFormatter</user>
+  <log>Will use same 'FormUrlEncodedMediaTypeFormatter' formatter</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>GetPerRequestFormatterInstance</oper>
+  <user>JQueryMvcFormUrlEncodedFormatter</user>
+  <log>Obtaining formatter of type 'JQueryMvcFormUrlEncodedFormatter' for type='IEdmModel', mediaType=''</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>GetPerRequestFormatterInstance</oper>
+  <user>JQueryMvcFormUrlEncodedFormatter</user>
+  <log>Will use same 'JQueryMvcFormUrlEncodedFormatter' formatter</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>SelectController</oper>
+  <user>DefaultHttpControllerSelector</user>
+  <log>Values</log>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>CreateController</oper>
+  <user>HttpControllerDescriptor</user>
+  <log />
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>Create</oper>
+  <user>DefaultHttpControllerActivator</user>
+  <log />
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>Create</oper>
+  <user>DefaultHttpControllerActivator</user>
+  <log>WebApiTracing.Controllers.ValuesController</log>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>CreateController</oper>
+  <user>HttpControllerDescriptor</user>
+  <log>WebApiTracing.Controllers.ValuesController</log>
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>ExecuteAsync</oper>
+  <user>ValuesController</user>
+  <log />
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>SelectAction</oper>
+  <user>ApiControllerActionSelector</user>
+  <log />
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>SelectAction</oper>
+  <user>ApiControllerActionSelector</user>
+  <log>Selected action 'Get()'</log>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>ExecuteBindingAsync</oper>
+  <user>HttpActionBinding</user>
+  <log />
+  <category>System.Web.Http.ModelBinding</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>ExecuteBindingAsync</oper>
+  <user>HttpActionBinding</user>
+  <log />
+  <category>System.Web.Http.ModelBinding</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>InvokeActionAsync</oper>
+  <user>ApiControllerActionInvoker</user>
+  <log>Action='Get()'</log>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper>ExecuteAsync</oper>
+  <user>ReflectedHttpActionDescriptor</user>
+  <log>Invoking action 'Get()'</log>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:14 PM</ts>
+  <oper />
+  <user />
+  <log>Inside CustomCode with param = There are 2 elements in the return array</log>
+  <category>Controllers</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper>ExecuteAsync</oper>
+  <user>ReflectedHttpActionDescriptor</user>
+  <log>Action returned 'System.String[]'</log>
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper>Negotiate</oper>
+  <user>DefaultContentNegotiator</user>
+  <log>Type='IEnumerable`1', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper>GetPerRequestFormatterInstance</oper>
+  <user>JsonMediaTypeFormatter</user>
+  <log>Obtaining formatter of type 'JsonMediaTypeFormatter' for type='IEnumerable`1', mediaType='application/json; charset=utf-8'</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper>GetPerRequestFormatterInstance</oper>
+  <user>JsonMediaTypeFormatter</user>
+  <log>Will use same 'JsonMediaTypeFormatter' formatter</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper>Negotiate</oper>
+  <user>DefaultContentNegotiator</user>
+  <log>Selected formatter='JsonMediaTypeFormatter', content-type='application/json; charset=utf-8'</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper>InvokeActionAsync</oper>
+  <user>ApiControllerActionInvoker</user>
+  <log />
+  <category>System.Web.Http.Action</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper>ExecuteAsync</oper>
+  <user>ValuesController</user>
+  <log />
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper />
+  <user />
+  <log>Content-type='application/json; charset=utf-8', content-length=unknown</log>
+  <category>System.Web.Http.Request</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper>WriteToStreamAsync</oper>
+  <user>JsonMediaTypeFormatter</user>
+  <log>Value='System.String[]', type='IEnumerable`1', content-type='application/json; charset=utf-8'</log>
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper>WriteToStreamAsync</oper>
+  <user>JsonMediaTypeFormatter</user>
+  <log />
+  <category>System.Net.Http.Formatting</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper>Dispose</oper>
+  <user>ValuesController</user>
+  <log />
+  <category>System.Web.Http.Controllers</category>
+</trace>
+<trace>
+  <ts>5/9/2013 8:05:15 PM</ts>
+  <oper>Dispose</oper>
+  <user>ValuesController</user>
+  <log />
+  <category>System.Web.Http.Controllers</category>
+</trace>
