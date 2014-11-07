@@ -21,7 +21,6 @@ public static class TracingConfig
         //    MinimumLevel = TraceLevel.Info,
         //    IsVerbose = false
         //};
-        CustomTraceWriter writer = new CustomTraceWriter();
         config.Services.Replace(typeof(ITraceWriter), new CustomTraceWriter());
     }
 
